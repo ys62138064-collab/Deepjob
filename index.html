@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI协作美育教学 · AI-assisted aesthetic</title>
+  <meta name="description" content="让AI打开想像，让美育回到思考。从传统的临摹绘画走向多元创作，以AI为媒介，重塑学生的审美逻辑。">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ================= 顶部导航 ================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#hero">
+        <span class="brand-logo" aria-hidden="true">Y</span>
+        <span class="brand-text">
+          <strong>AI协作美育教学</strong>
+          <em>AI-assisted aesthetic</em>
+        </span>
+      </a>
+      <nav class="site-nav" id="siteNav" aria-label="主导航">
+        <a href="#idea" data-nav="idea">教学理念</a>
+        <a href="#flow" data-nav="flow">教学流程</a>
+        <a href="#task" data-nav="task">教学任务</a>
+        <a href="#plan" data-nav="plan">教学方案</a>
+        <a href="#prep" class="btn btn-primary nav-cta">开始备课</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= 01 Hero 首屏 ================= -->
+    <section class="section hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <h1>让AI打开想像，<br>让美育回到思考。</h1>
+          <p class="hero-sub">
+            从传统的临摹绘画走向多元创作<br>
+            以AI为媒介，重塑学生的审美逻辑<br>
+            保留传统绘画基础上，培育学生的判断力。
+          </p>
+          <div class="hero-actions">
+            <a href="#idea" class="btn btn-primary btn-lg">探索AI协作教学 <span class="arr">↗</span></a>
+            <a href="#task" class="btn btn-soft btn-lg">查看教学任务</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal" data-delay="1">
+          <figure class="hero-photo">
+            <img src="assets/img/hero.jpg" alt="学生在美术教室里与AI协作创作">
+            <div class="chat-bubble" id="chatBubble">
+              <p class="chat-q">「你為什麼選擇這一版？」</p>
+              <p class="chat-a">好問題！比標準答案更重要。</p>
+            </div>
+          </figure>
+          <div class="hero-caption">
+            <span>创作的主角是学生，AI是探索的陪伴。</span>
+            <a href="#prep" class="human-first">HUMAN FIRST ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 02 教学理念 ================= -->
+    <section class="section" id="idea">
+      <div class="container">
+        <p class="section-tag reveal"><span class="num">01</span>教学理念</p>
+        <div class="idea-head">
+          <h2 class="reveal">不是更快完成一张图，<br>而是更深入理解一次创作。</h2>
+          <p class="idea-intro reveal" data-delay="1">
+            AI 协作美育不是把美术课变成工具课，而是把生成的速度，转化为观察、比较与对话的空间。培育个体在创作中的审美观判断力、叙事整合与洞悉与解决问题的能力，技法固然重要，思考更不能缺席。
+          </p>
+        </div>
+
+        <div class="idea-grid">
+          <article class="idea-card reveal">
+            <div class="idea-meta">
+              <span class="idea-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1.5 12S5.5 5.5 12 5.5 22.5 12 22.5 12 18.5 18.5 12 18.5 1.5 12 1.5 12z"/><circle cx="12" cy="12" r="3.2"/></svg>
+              </span>
+              <span class="idea-index">01</span>
+            </div>
+            <h3>先观察，再生成</h3>
+            <p>从生活经验与真实感受出发。先让学生说出自己的问题，再决定是否需要 AI 的协助。</p>
+            <img src="assets/img/art-1.jpg" alt="学生跨越现实与数字画布的插画" loading="lazy">
+          </article>
+
+          <article class="idea-card reveal" data-delay="1">
+            <div class="idea-meta">
+              <span class="idea-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="6" r="2.6"/><circle cx="7" cy="18" r="2.6"/><circle cx="17" cy="12" r="2.6"/><path d="M9 7.5c3 2 3 7 5.5 3.5M9 16.5c3-2 3-7 5.5-3.5"/></svg>
+              </span>
+              <span class="idea-index">02</span>
+            </div>
+            <h3>重复判断，坚持创作</h3>
+            <p>把生成结果当作讨论素材，而非标准答案。比较构图、色彩与情绪，练习说明选择的理由。</p>
+            <img src="assets/img/art-2.jpg" alt="画室中反复比较多个生成方案的插画" loading="lazy">
+          </article>
+
+          <figure class="idea-side reveal" data-delay="2">
+            <img src="assets/img/art-3.jpg" alt="学生驻足观看一墙色彩斑斓的画作" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 03 教学流程 ================= -->
+    <section class="section" id="flow">
+      <div class="container">
+        <div class="flow-head">
+          <p class="section-tag reveal"><span class="num">02</span>教学流程</p>
+          <p class="section-sub reveal" data-delay="1">改变的不只是工具，而是学习的顺序。</p>
+        </div>
+
+        <div class="flow-board reveal">
+          <div class="flow-board-head">
+            <h2>传统美育教学 vs AI协作美育教学</h2>
+            <button class="btn btn-primary" id="playFlow">▶ 播放AI工作流</button>
+          </div>
+          <div class="flow-columns">
+            <div class="flow-col flow-col--old">
+              <div class="flow-col-head head-blue">传统绘画教学流程</div>
+              <ol class="flow-steps" id="stepsOld">
+                <li class="flow-step">老师手绘示范</li>
+                <li class="flow-step">学生临摹作品</li>
+                <li class="flow-step">教师修改学生作品</li>
+                <li class="flow-step">学生完成创作</li>
+              </ol>
+              <p class="flow-note">教师 = 技法示范者和批改专员</p>
+            </div>
+            <div class="flow-col flow-col--new">
+              <div class="flow-col-head head-orange">AI协作美育教学工作流</div>
+              <ol class="flow-steps" id="stepsNew">
+                <li class="flow-step">老师设计创作题目或者开放性任务</li>
+                <li class="flow-step">学生思考、撰写提示词、主题研讨</li>
+                <li class="flow-step">AI批量生成多版视觉方案</li>
+                <li class="flow-step">师生共同探讨方案价值</li>
+                <li class="flow-step">学生筛选方案，构建作品叙事</li>
+              </ol>
+              <p class="flow-note">教师 = 审美感知与意义解读引领者</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 04 教学任务 ================= -->
+    <section class="section" id="task">
+      <div class="container">
+        <div class="flow-head">
+          <p class="section-tag reveal"><span class="num">03</span>教学任务</p>
+          <p class="section-sub reveal" data-delay="1">把理念带进教室，从课堂主题开始。</p>
+        </div>
+
+        <div class="prompt-row reveal">
+          <span class="prompt-label">学生在AI输入——</span>
+          <span class="prompt-input" id="promptInput" contenteditable="true" spellcheck="false" aria-label="可编辑的AI提示词">我想画一副主题与香港建筑相关的画</span>
+        </div>
+        <div class="arrow-down reveal" aria-hidden="true">↓</div>
+
+        <div class="plans-grid" id="plansGrid">
+          <article class="plan-card reveal" data-plan="1" tabindex="0" role="button" aria-pressed="false">
+            <header class="plan-head head-blue">方案一</header>
+            <div class="plan-body">
+              <p><strong>绘画主题：</strong><br>维多利亚港天际线</p>
+              <p><strong>视觉符号：</strong>玻璃幕墙折面<br><strong>几何符号：</strong>暖橙夕阳 / 紫蓝暮色</p>
+              <p><strong>构图方案：</strong><br>水平全景构图<br>低视平线，天空占 2/3</p>
+            </div>
+            <img src="assets/img/scheme-1.jpg" alt="方案一：维多利亚港天际线插画" loading="lazy">
+            <span class="plan-pick">✓ 已选择该方案</span>
+          </article>
+
+          <article class="plan-card reveal" data-plan="2" data-delay="1" tabindex="0" role="button" aria-pressed="false">
+            <header class="plan-head head-teal">方案二</header>
+            <div class="plan-body">
+              <p><strong>绘画主题：</strong><br>旧式唐楼市井生活</p>
+              <p><strong>视觉符号：</strong>霓虹招牌<br>铁闸门<br><strong>几何符号：</strong>马赛克瓷砖、晾衣杆</p>
+              <p><strong>构图方案：</strong><br>低角度仰望唐楼<br>两侧建筑形成视觉隧道</p>
+            </div>
+            <img src="assets/img/scheme-2.jpg" alt="方案二：唐楼霓虹街景插画" loading="lazy">
+            <span class="plan-pick">✓ 已选择该方案</span>
+          </article>
+
+          <article class="plan-card reveal is-picked" data-plan="3" data-delay="2" tabindex="0" role="button" aria-pressed="true">
+            <header class="plan-head head-purple">方案三</header>
+            <div class="plan-body">
+              <p><strong>绘画主题：</strong><br>摩天大楼与庙宇对话</p>
+              <p><strong>视觉符号：</strong><br><strong>对比符号：</strong>直线 VS 曲线<br><strong>空间符号：</strong>玻璃反射 VS 庙脊雕花</p>
+              <p><strong>构图方案：</strong>框景构图<br>透过旧窗框、望新楼：<br>前景暗景、后景亮</p>
+            </div>
+            <img src="assets/img/scheme-3.jpg" alt="方案三：旧窗框中眺望摩天大楼的插画" loading="lazy">
+            <span class="plan-pick">✓ 已选择该方案</span>
+          </article>
+        </div>
+        <p class="plans-hint reveal">点击卡片可以选择进入课堂讨论的方案，下方「教学方案」会同步更新。</p>
+      </div>
+    </section>
+
+    <!-- ================= 05 教学方案 ================= -->
+    <section class="section" id="plan">
+      <div class="container">
+        <div class="flow-head">
+          <p class="section-tag reveal"><span class="num">04</span>教学方案</p>
+          <p class="section-sub reveal" data-delay="1">师生共同探讨以上生成的多版视觉方案</p>
+        </div>
+
+        <div class="center-pill reveal">共同筛选一下的方案</div>
+        <div class="arrow-down reveal" aria-hidden="true">↓</div>
+
+        <div class="compare-card reveal">
+          <div class="compare-copy">
+            <h3>比较过程：从四个维度评估三个方案</h3>
+            <ul class="compare-list">
+              <li><strong>主题表达力：</strong>是否具备清晰的视觉焦点与情感张力。</li>
+              <li><strong>符号丰富度：</strong>视觉元素是否足够支撑画面叙事。</li>
+              <li><strong>构图可操作性：</strong>学生能否在课堂时间内完成并理解。</li>
+              <li><strong>文化思考深度：</strong>是否能引出超越技法的审美与文化讨论。</li>
+            </ul>
+          </div>
+          <figure class="compare-img">
+            <img src="assets/img/plan.jpg" alt="师生共同评估多个视觉方案的场景" loading="lazy">
+          </figure>
+        </div>
+
+        <div class="result-card reveal" id="resultCard">
+          <h3 id="resultTitle">提取合适的教学方案：方案三 · 摩天大楼与庙宇对话</h3>
+          <ul class="result-list" id="resultList">
+            <li>主题张力强：新旧建筑并置，天然具备对话结构，容易引发学生思考传统与现代的关系。</li>
+            <li>符号对比鲜明：直线 VS 曲线，玻璃反射 VS 庙脊雕花，视觉语言清晰，便于课堂分析。</li>
+            <li>构图有叙事性：框景构图操作简单，但能制造前景、暗亮景的空间层次与情感距离。</li>
+            <li>契合美育核心：不只是画一栋楼，而是通过选择符号与构图，表达对城市文化冲突与融合的理解。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 06 开始备课 ================= -->
+    <section class="section section--prep" id="prep">
+      <div class="container">
+        <div class="prep-head">
+          <p class="section-tag reveal">开始备课</p>
+          <div class="prep-banner reveal" data-delay="1">AI写作美育备课流程</div>
+        </div>
+
+        <div class="prep-grid">
+          <article class="prep-card tone-cream reveal">
+            <h3><span class="prep-num">01</span>理念定位</h3>
+            <p>明确本课与AI的关系，AI是思维的放大镜，不是替代者。</p>
+          </article>
+          <article class="prep-card tone-pink reveal" data-delay="1">
+            <h3><span class="prep-num">02</span>目标设定</h3>
+            <p>审美感知：能识别视觉焦点与情感。<br>艺术表现：掌握相关技法与符号。<br>文化理解：能讨论作品背后的意义。</p>
+          </article>
+          <article class="prep-card tone-rose reveal" data-delay="2">
+            <h3><span class="prep-num">03</span>主题与任务设计</h3>
+            <p>选择贴近生活经验的艺术主题里设计有开放的创作任务。</p>
+          </article>
+          <article class="prep-card tone-peach reveal">
+            <h3><span class="prep-num">04</span>AI协同生成方案</h3>
+            <p>师生共写提示词，把思考转为语言，AI批量输出多版视觉方案。</p>
+          </article>
+          <article class="prep-card tone-mint reveal" data-delay="1">
+            <h3><span class="prep-num">05</span>方案比较与筛选</h3>
+            <p>从主题表达力、符号丰富度、构图可操作性、文化思考深度，以这四个维度为切入点，选出方案。</p>
+          </article>
+          <article class="prep-card tone-sky reveal" data-delay="2">
+            <h3><span class="prep-num">06</span>课堂实施与反思</h3>
+            <p>技法练习加一一讨论加创作实践，关注过程，观察选择修改表达。最后需要评价作品，关注学生思维与成长。</p>
+          </article>
+        </div>
+
+        <div class="prep-loop reveal">
+          备课不是线性清单，而是可以循环迭代，需要反思，回到理念定位，优化下一轮课程。
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>AI协作美育教学 · AI-assisted aesthetic</span>
+      <span>创作的主角是学生，AI是探索的陪伴。</span>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="回到顶部">↑</button>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
